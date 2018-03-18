@@ -57,7 +57,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy" : "export NODE_ENV=development && export BABEL_ENV=$NODE_ENV && rm -rf build && /usr/local/bin/truffle compile && /usr/local/bin/truffle migrate"
+    "deploy": "export NODE_ENV=development && export BABEL_ENV=$NODE_ENV && rm -rf build && /usr/local/bin/truffle compile && /usr/local/bin/truffle migrate"
   },
   "jest": {
     "collectCoverageFrom": [
